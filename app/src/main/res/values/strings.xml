@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">permissionApp</string>
+
+    <string name="dangerous">Dangerous</string>
+    <string name="read_contacts">READ_CONTACTS</string>
+    <string name="apply">Apply</string>
+    <string name="send_sms">SEND_SMS</string>
+    <string name="normal">Normal</string>
+    <string name="access_wifi_state">ACCESS_WIFI_STATE</string>
+    <string name="access_notification_policy">ACCESS_NOTIFICATION_POLICY</string>
+    <string name="apply_all">Apply all</string>
 </resources>

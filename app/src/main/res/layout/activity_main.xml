@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Dangerous"
+        android:text="@string/dangerous"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-            android:text="READ_CONTACTS"
+            android:text="@string/read_contacts"
             android:textColor="@color/red"
             android:textSize="16sp" />
 
@@ -40,7 +40,7 @@
             android:id="@+id/button1"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/apply" />
     </LinearLayout>
 
     <LinearLayout
@@ -62,7 +62,7 @@
             android:id="@+id/button2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/apply" />
     </LinearLayout>
 
     <LinearLayout
@@ -84,7 +84,7 @@
             android:id="@+id/button3"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/apply" />
     </LinearLayout>
 
     <LinearLayout
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-            android:text="SEND_SMS"
+            android:text="@string/send_sms"
             android:textColor="@color/red"
             android:textSize="16sp" />
 
@@ -106,14 +106,14 @@
             android:id="@+id/button4"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/apply" />
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Normal"
+        android:text="@string/normal"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -128,7 +128,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-            android:text="ACCESS_WIFI_STATE"
+            android:text="@string/access_wifi_state"
             android:textColor="@color/red"
             android:textSize="16sp" />
 
@@ -136,7 +136,7 @@
             android:id="@+id/button5"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/apply" />
     </LinearLayout>
 
     <LinearLayout
@@ -149,7 +149,7 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" ACCESS_NOTIFICATION_POLICY"
+            android:text="@string/access_notification_policy"
             android:textColor="@color/red"
             android:textSize="16sp"
             android:layout_marginEnd="10dp" />
@@ -158,12 +158,12 @@
             android:id="@+id/button6"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Button" />
+            android:text="@string/apply" />
     </LinearLayout>
 
     <Button
         android:id="@+id/buttonAll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Apply all" />
+        android:text="@string/apply_all" />
 </LinearLayout>
